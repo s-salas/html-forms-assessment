@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 143, 210);
+  }
+  
+  form {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+  .input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 35px;
+    margin: 8px 0;
+    width: 90%;
+    text-align: start;
+    overflow-wrap: break-word;
+}
+
+.input-field-message input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1b1b;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 90px;
+    margin: 8px 0;
+    width: 90%;
+    text-align: start;
+    overflow-wrap: break-word;
+}
+
